@@ -6,4 +6,4 @@ String str=sc.nextLine();
 str=str.replaceAll(" ","");
  System.out.println(str);
  } 
-}
+ }
