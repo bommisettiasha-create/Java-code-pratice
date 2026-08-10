@@ -7,8 +7,8 @@ class Vowels {
  if (ch == 'a' || ch == 'e' || ch == 'i' ||
   ch == 'o' || ch == 'u') {
  count++;
-            }
-        }
+   }
+ }
 System.out.println("Vowels = " + count);
     }
 }
