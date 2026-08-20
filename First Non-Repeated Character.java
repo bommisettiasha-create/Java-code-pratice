@@ -12,7 +12,7 @@ for (int j = 0; j < str.length(); j++) {
  if (count == 1) {
  System.out.println("First non-repeated = " + ch);
  break;
-            }
+           }
         }
     }
 }
