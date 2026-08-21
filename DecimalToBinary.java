@@ -1,0 +1,15 @@
+public class DecimalToBinary {
+    public static void main(String[] args) {
+
+        int num = 10;
+        String binary = "";
+
+        while (num > 0) {
+            int remainder = num % 2;
+            binary = remainder + binary;
+            num = num / 2;
+        }
+
+        System.out.println("Binary = " + binary);
+    }
+}
